@@ -11,7 +11,7 @@ export default function Faq() {
   return (
     <div className={{}}>
       <Head>
-        <title>Nextjs | Next-Auth</title>
+        <title>Nextjs | Faq</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
