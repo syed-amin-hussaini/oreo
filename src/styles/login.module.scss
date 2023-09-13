@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+
+.main {
+  // background-image: url("/assets/images/layer.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .button {
+    display: inline-block;
+    padding: 0 18px 0 6px;
+    border: 0 none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 250ms linear;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    color: white;
+    min-height: 50px;
+    line-height: 46px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-inline: auto;
+    user-select: none;
+    // text-transform: uppercase;
+    &:hover {
+      text-decoration: none;
+      cursor: pointer;
+    }
+   
+    &.button_facebook {
+      background-color: #0075ff;
+    }
+    
+    
+    
+    &.button_google {
+      background-color: #fff;
+      border: 1px solid #fafafa;
+      color: #9a9a9a;
+    }
+  }
+}
+
+

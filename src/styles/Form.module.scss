@@ -1,0 +1,53 @@
+.main {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  align-items: flex-start;
+  background-image: url( ~/public/assets/images/layer-2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  .form {
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 1px #00000085;
+    gap: 15px;
+    label {
+      font-weight: bolder;
+      margin-bottom: 5px;
+      color: var(--bs-black);
+    }
+    input,
+    .submitBtn {
+      padding: 7px 10px;
+      border-radius: 8px;
+      width: 100%;
+      height: auto;
+    } 
+    p {
+      color:var(--bs-danger);
+      margin-bottom: 0;
+      margin-top: 5px;
+      font-size: 12px;
+    }
+   
+    input {
+  
+      border: 0px;
+      box-shadow: 0px 0px 1px 1px #7F8FBB;
+      // border: 1px solid #7F8FBB;
+      outline: none;
+      &:focus {
+        box-shadow: 0px 0px 1px 2px #7F8FBB;
+        // border: 2px solid #7d9df6;
+     }
+    }
+    .submitBtn {
+      background-color: #000;
+      color:#fff;
+      font-size: 18px;
+    }
+  }
+}

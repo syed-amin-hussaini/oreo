@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 500px;
+  overflow-x: hidden;
+  margin: 0vh auto;
+  font-family: "Pluto Bold";
+  position: relative;
+  height: 100vh;
+}
+.fw_r {
+  font-family: "Pluto Regular";
+}
+
+.main {
+  background-image: url("/assets/images/layer-2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+// tel
+.react-tel-input {
+  input {
+    padding-left: 48px !important;
+  }
+  .flag-dropdown {
+    border-right: 1px solid #7f8fbb !important;
+    border-radius: 10px 0 0 10px !important;
+  }
+}
+
+// Remove Arrows/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.loader {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

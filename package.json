@@ -1,0 +1,39 @@
+{
+  "name": "next-pwa-demo",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/error-message": "^2.0.1",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.19",
+    "express": "^4.18.2",
+    "js-cookie": "^3.0.5",
+    "mongodb": "^3.5.9",
+    "mongoose": "^6.0.8",
+    "next": "13.4.19",
+    "next-auth": "^4.23.1",
+    "next-pwa": "^5.6.0",
+    "nodemailer": "^6.6.5",
+    "nookies": "^2.5.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.46.0",
+    "react-phone-input-2": "^2.15.1",
+    "react-toastify": "^8.0.3",
+    "react-webcam": "^7.1.1",
+    "workbox-webpack-plugin": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "sass": "^1.66.1"
+  }
+}
